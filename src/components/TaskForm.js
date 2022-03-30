@@ -72,18 +72,18 @@ const TaskForm = () => {
   return (
     <div className="panel panel-warning">
       <div className="panel-heading">
-        <h3 className="panel-title">
-          {inputForm.id !== "" ? "Cập Nhật Công Việc" : "Thêm Công Việc"}
-          <span
-            className="fas fa-times-circle text-right"
-            onClick={() => onCloseForm()}
-          ></span>
-        </h3>
+        <div className="panel-title">
+         <h4> {inputForm.id !== "" ? "Cập Nhật Công Việc" : "Thêm Công Việc"}</h4>
+        </div>
+        <span
+          className="fas fa-times-circle text-right"
+          onClick={() => onCloseForm()}
+        ></span>
       </div>
       <div className="panel-body">
         <form>
           <div className="form-group">
-            <label>Tên :</label>
+            <label>Tên Công Việc:</label>
             <input
               type="text"
               className="form-control"

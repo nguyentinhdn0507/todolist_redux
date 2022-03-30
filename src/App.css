@@ -51,9 +51,16 @@
 .dropdown-menu .fa:before {
   padding-right: 10px;
 }
+.panel-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .text-right {
-  float: right;
   cursor: pointer;
+}
+.fa-times-circle {
+  font-size: 1.3rem;
 }
 .text-right:hover {
   color: red;
@@ -66,3 +73,4 @@
   margin: 0 0 0 10px;
   display: inline-block;
 }
+

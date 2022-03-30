@@ -35,18 +35,16 @@ function App() {
       </div>
       <div className="row">
         <div
-          className={
-            showForm === true ? "col-xs-4 col-sm-4 col-md-4 col-lg-4" : " "
-          }
+          className={`${showForm} === true ? "col-xs-4 col-sm-4 col-md-4 col-lg-4" : " " `}
         >
           {elementForm}
         </div>
         <div
-          className={
+          className={`${
             showForm === true
               ? "col-xs-8 col-sm-8 col-md-8 col-lg-8"
               : "col-xs-12 col-sm-12 col-md-12 col-lg-12"
-          }
+          }`}
         >
           <button
             type="button"

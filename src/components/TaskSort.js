@@ -56,6 +56,7 @@ const TaskSort = () => {
             </a>
           </li>
           <li role="separator" className="divider"></li>
+          <hr />
           <li onClick={() => onSort("status", 1)}>
             <a
               className={`dropdown-item ${
