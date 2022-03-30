@@ -26,7 +26,7 @@ function App() {
       status: false,
     });
   };
-  var elementForm = showForm === true ? <TaskForm /> : "";
+  const elementForm = showForm === true ? <TaskForm /> : "";
   return (
     <div className="container">
       <div className="text-center">
